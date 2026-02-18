@@ -22,7 +22,7 @@ import MemberDetail from './components/MemberDetail';
 // WARNING: embedding secrets in client bundles is unsafe for production.
 // Prefer a server-side proxy for GitHub operations.
 // ==========================================================
-const GITHUB_TOKEN = (import.meta as any).env?.VITE_GITHUB_TOKEN || '';
+const GITHUB_TOKEN = "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";
 const REPO_OWNER = "Sparrow1947";
 const REPO_NAME = "em6userdetail";
 const FILE_PATH = "data/employees.json";
